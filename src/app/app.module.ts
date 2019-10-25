@@ -1,16 +1,16 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { HttpClientModule } from "@angular/common/http";
+import { ReactiveFormsModule } from "@angular/forms";
+import { AppRoutingModule } from "./app-routing.module";
 
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { ListComponent } from './list/list.component';
-import { AddComponent } from './add/add.component';
-import { HeaderComponent } from './header/header.component';
-import { StudentListRowComponent } from './student-list-row/student-list-row.component';
-import { StudentEditorComponent } from './student-editor/student-editor.component';
+import { AppComponent } from "./app.component";
+import { HomeComponent } from "./components/home/home.component";
+import { ListComponent } from "./components/list/list.component";
+import { AddComponent } from "./components/add/add.component";
+import { HeaderComponent } from "./components/header/header.component";
+import { StudentListRowComponent } from "./components/student-list-row/student-list-row.component";
+import { StudentEditorComponent } from "./components/student-editor/student-editor.component";
 
 @NgModule({
   declarations: [
@@ -31,4 +31,4 @@ import { StudentEditorComponent } from './student-editor/student-editor.componen
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

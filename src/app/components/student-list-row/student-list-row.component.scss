@@ -1,0 +1,19 @@
+.studentRow {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 10% 18% 30% 30% 9%;
+  grid-gap: 0.5%;
+  line-height: 2em;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0px;
+  font-size: 0.8em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  button {
+    padding: 5px;
+  }
+}

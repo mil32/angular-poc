@@ -1,0 +1,12 @@
+<div>
+  <p>student-editor works!</p>
+
+  <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+    <input type="text" formControlName="firstName" placeholder="First Name" />
+    <input type="text" formControlName="lastName" placeholder="Last Name" />
+    <input type="number" formControlName="dni" placeholder="Dni" />
+    <input type="email" formControlName="email" placeholder="Email" />
+    <input type="text" formControlName="address" placeholder="Address" />
+    <button type="submit" [disabled]="!studentForm.valid">SUBMIT</button>
+  </form>
+</div>
