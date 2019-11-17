@@ -11,6 +11,7 @@ import { AddComponent } from "./components/add/add.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { StudentListRowComponent } from "./components/student-list-row/student-list-row.component";
 import { StudentEditorComponent } from "./components/student-editor/student-editor.component";
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { StudentEditorComponent } from "./components/student-editor/student-edit
     AddComponent,
     HeaderComponent,
     StudentListRowComponent,
-    StudentEditorComponent
+    StudentEditorComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
